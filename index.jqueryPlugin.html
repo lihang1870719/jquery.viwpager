@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>pic</title>
+    <style>
+      body {margin: auto 5rem}
+      .text {margin-top: 5rem}
+      .tabs-content ul li {display: none}
+      .tabs-content ul li img {width: 50%}
+      .prev, .tabs-content, .next {position: relative}
+    </style>
+  </head>
+  <body>
+    <div class="text">
+      <p>图片轮播</p>
+    </div>
+    <div class="tabs">
+      <div class="prev"><a href="javascript:void(0)">上一个</a> </div>
+      <div class="tabs-content">
+        <ul>
+          <li><img src="./pic/first.jpg" alt="This is first picture"></li>
+          <li><img src="./pic/second.jpg" alt="This is second picture"></li>
+          <li><img src="./pic/third.jpg" alt="This is third picture"></li>
+        </ul>
+      </div>
+      <div class="next"><a href="javascript:void(0)">下一个</a> </div>
+      <div class="tabs-title">
+        <ul class="thumbnail">
+          <li><a href="javascript:void(0)">1</a></li>
+          <li><a href="javascript:void(0)">2</a></li>
+          <li><a href="javascript:void(0)">3</a></li>
+        </ul>
+      </div>
+    </div>
+    <script src="js/jquery-latest.js"></script>
+    <script src="js/jquery.viwpager.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
